@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        /* Reset default margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body and General Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #080808;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #333;
+            text-align: center;
+            padding: 10px 0;
+        }
+        header:hover {
+            background-color: #444;
+            transition: background-color 0.3s;
+        }
+        header a {
+            text-decoration: none;
+            font-size: 24px;
+            color: #fff;
+        }
+
+        /* Main Content Container */
+        .contact-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Contact Information Styles */
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-top: 20px;
+        }
+        h2 {
+    animation: colorChange 2s infinite alternate;
+        }
+
+        @keyframes colorChange {
+         0% {
+        color: #333;
+     }
+    100% {
+        color: blueviolet;
+         }
+            }
+
+        .contact-item {
+            margin: 10px 0;
+        }
+
+        .contact-item img {
+            width: 40px;
+            height: 40px;
+            margin-bottom: 10px;
+        }
+
+        /* Social Media Links Styles */
+        .social-links {
+            margin-top: 50px;
+        }
+
+        .social-link {
+            text-decoration: none;
+            margin: 10px;
+            font-size: 18px;
+            color: #333;
+            display:inline-block
+        }
+        .social-link:hover {
+    color: blueviolet;
+    transform: scale(1.1);
+        }
+        .social-link img {
+    transition: transform 0.3s;
+        }
+
+
+.social-link:hover img {
+    transform: scale(1.1);
+}
+body, header, .contact-container, .contact-item, .social-link {
+    box-sizing: border-box;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <a href="index.html">ARUL's PORTFOLIO</a>
+    </header>
+    <div class="contact-container">
+        <section>
+            <h1>Contact Me</h1>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <img src="email.jpg" alt="Email Icon">
+                    <p>Email: arulsood04@gmail.com</p>
+                    <p>as2090@srmist.edu.in</p>
+                </div>
+                <div class="contact-item">
+                    <img src="phone.jpeg" alt="Phone Icon">
+                    <p>Phone:7018881618</p>
+                </div>
+                <div class="contact-item">
+                    <img src="live.jpeg" alt="Location Icon">
+                    <p>Location: Kullu, Himachal Pradesh</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Connect with me on Social Media</h2>
+            <div class="social-links">
+                <a class="social-link" href="https://www.linkedin.com/in/arul-sood-8424a8270/">
+                    <img src="linkdin.jpeg" alt="LinkedIn Icon">
+                
+                </a>
+                <a class="social-link" href="https://www.instagram.com/_arul_sood_/">
+                    <img src="instagram.jpeg" alt="Instagram Icon">
+                    
+                </a>
+                <a class="social-link" href="https://www.facebook.com/arul.sood">
+                    <img src="facebook.jpeg" alt="Facebook Icon">
+                    
+                </a>
+                <a class="social-link" href="https://github.com/soodarul">
+                    <img src="github.jpeg" alt="GitHub Icon">
+                
+                </a>
+                <a class="social-link" href="https://www.hackerrank.com/dashboard?h_r=logo">
+                    <img src="po.jpeg" alt="hackerrank Icon">
+                
+                </a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
