@@ -165,7 +165,8 @@ main hr:hover {
     margin-bottom: 10px;
 }
 
-.certification-item a {
+.certification-item a,
+.internship-item a {
     text-decoration: none;
     background-color: #333;
     color: #fff;
@@ -175,6 +176,10 @@ main hr:hover {
     transition: background-color 0.3s;
 }
 
-.certification-item a:hover {
+.certification-item a:hover,
+.internship-item a:hover {
     background-color: #555;
+}
+#as{
+    color: palevioletred;
 }
