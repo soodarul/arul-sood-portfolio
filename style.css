@@ -183,3 +183,40 @@ main hr:hover {
 #as{
     color: palevioletred;
 }
+@media screen and (max-width: 600px)
+{
+    nav ul li {
+        margin: 0 5px; /* Further adjusted margin for smaller screens */
+    }
+
+    .left {
+        font-size: 20px;
+    }
+
+    .leftsection {
+        font-size: 1.5rem;
+        margin-top: 3%;
+    }
+
+    .rightsection img {
+        margin: 5%;
+    }
+
+    .secondsection {
+        height: auto;
+    }
+
+    main hr {
+        margin: 10px 0;
+    }
+
+    .box {
+        margin: 10px 0;
+    }
+
+    .image-top {
+        height: 50px;
+        top: -50px;
+    }
+}
+}
